@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Roboto:wght@700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ccc;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 800px;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+    
+}
+
+.logo{
+    height: 30px;
+    justify-content: center;
+    margin: 60px 0;
+    translate: 150px;
+}
+
+.loginarea{
+    background: white;
+    height: 100%;
+    width: 400px;
+}
+
+.loginarea h3{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 22px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.login{
+    justify-content: center;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: none;
+    background: #f5f3f3;
+    border-radius: 5px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 9px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 280px;
+    translate: 60px;
+}
+
+.login:hover{
+    background: #ecebeb;
+}
+
+.otherlogin{
+    display: flex;
+    width: 270px;
+    margin: 0 auto;
+    height: 35px;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+
+.otherlogin img {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.google {
+    border: solid rgb(240, 232, 232) 0.1px;
+}
+
+
+.checkbox {
+    padding-top: 20px;
+    display: flex;
+    margin: 0 auto;
+    width: 270px;
+}
+
+.checkbox label {
+    padding-left: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.submit {
+    
+    padding-top: 200px;
+    margin-bottom: 70px;
+    width: 270px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.submit button {
+    border: none;
+    color: white;
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.submit button:hover{
+    background-color: rgb(207, 6, 6);
+}
+
+.footer{
+    width: 270px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(172, 171, 171);
+    font-family: 'Noto Sans JP';
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    
+}
+
+.footer a:last-child{
+    translate: 0 -17px;
+}
+
+.footer a:hover{
+    color: black;
+}
+
+.image {
+    height: 800px;
+    width: 1100px;
+}
+
+.version {
+    font-size: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.version a{
+    text-decoration: none;
+    color: rgb(172, 171, 171);
+    font-family: 'Noto Sans JP';
+}
+
+.version a:hover {
+    color: rgb(119, 119, 119);
+}
