@@ -170,3 +170,67 @@ body{
 .version a:hover {
     color: rgb(119, 119, 119);
 }
+
+.aviso {
+    position: absolute;
+    right: 1200px;
+    top: 125px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.losango{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 1210px;
+    top: 130px;
+    height: 40px;
+    width:40px;
+    background:#d950e5;
+    transform: rotate(-45deg);  
+  }
+
+  .losango span{
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    transform: rotate(45deg);
+  }
+
+  .losango:hover{
+    background: #913599;
+  }
+
+  .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+    right: 210px;
+    border: #ecebeb 0.2px solid;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(134, 134, 134, 0.3);
+  }
+
+  .account:hover {
+    cursor: pointer;
+  }
+
+  .account img {
+    height: 40px;
+    filter: invert(80%);
+  }
+
+  .account img:hover {
+  
+    filter: invert(100%);
+    
+  }
